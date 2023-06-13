@@ -39,5 +39,5 @@
 --  2  2018  557.559375
 --  3  2019  550.998571
 --
---  >>> Escriba su codigo a partir de este punto <<<
+SELECT strftime('%Y', c23), avg(c21) FROM tbl2 GROUP BY SUBSTR(c23,1,4) ORDER BY SUBSTR(c23,1,4);
 --
