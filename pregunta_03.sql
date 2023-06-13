@@ -8,9 +8,7 @@
 --    c14 DATE
 --    c15 FLOAT
 --    c16 CHAR(4)
--- 
---  Escriba una consulta que retorne los primeros cinco
---  registros de la tabla `tbl1` ordenados por fecha.
+SELECT * FROM tbl1 ORDER BY c14 LIMIT 5
 -- 
 --  Rta/
 --    K0  K1     c12  c13         c14   c15   c16
