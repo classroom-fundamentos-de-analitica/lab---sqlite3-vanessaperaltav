@@ -9,7 +9,9 @@
 --    c15 FLOAT
 --    c16 CHAR(4)
 --
---  Escriba una consulta en SQL que devuelva la suma del campo c12.
+SELECT SUM(c12) FROM tbl1
+
+
 -- 
 --  Rta/
 --     SUM(c12)
