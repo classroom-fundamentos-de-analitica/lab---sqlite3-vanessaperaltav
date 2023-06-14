@@ -9,7 +9,7 @@
 --    c15 FLOAT
 --    c16 CHAR(4)
 -- 
-SELECT COUNT(*) FROM tbl1
+--  Escriba una consulta que retorne la cantidad de registros
 --  de la tabla `tbl1`.
 -- 
 --  Rta/
@@ -18,3 +18,4 @@ SELECT COUNT(*) FROM tbl1
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT COUNT(*) FROM tbl1
