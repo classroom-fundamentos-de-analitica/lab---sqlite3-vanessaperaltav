@@ -8,7 +8,9 @@
 --    c14 DATE
 --    c15 FLOAT
 --    c16 CHAR(4)
-SELECT * FROM tbl1 ORDER BY c14 LIMIT 5
+-- 
+--  Escriba una consulta que retorne los primeros cinco
+--  registros de la tabla `tbl1` ordenados por fecha.
 -- 
 --  Rta/
 --    K0  K1     c12  c13         c14   c15   c16
@@ -20,3 +22,4 @@ SELECT * FROM tbl1 ORDER BY c14 LIMIT 5
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT * FROM tbl1 ORDER BY c14 LIMIT 5
