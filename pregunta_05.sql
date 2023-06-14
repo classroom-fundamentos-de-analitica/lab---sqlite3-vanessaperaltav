@@ -28,7 +28,9 @@
 --    c24 FLOAT,
 --    c25 CHAR(5)
 --
-SELECT * FROM tbl0 WHERE c02 = 100 OR c02 = 600--  o igual a 600
+--  Escriba una consulta que retorne todos los campos de 
+--  la tabla tbl0 para los que el campo c02 es igual a 100
+--  o igual a 600
 -- 
 -- Rta/
 --    K0   c01  c02    c03  c04
@@ -39,3 +41,4 @@ SELECT * FROM tbl0 WHERE c02 = 100 OR c02 = 600--  o igual a 600
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT * FROM tbl0 WHERE c02 = 100 OR c02 = 600
