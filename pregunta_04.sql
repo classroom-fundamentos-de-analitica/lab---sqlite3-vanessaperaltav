@@ -27,7 +27,10 @@
 --    c23 DATE,
 --    c24 FLOAT,
 --    c25 CHAR(5)
-SELECT k0, c16 FROM tbl1 WHERE SUBSTR(k0,1,1) = SUBSTR(c16,1,1);
+--
+--  Escriba una consulta que retorne los campos K0 y c16
+--  para los registros de la tabla tbl1 para los que la 
+--  columna c16 empieza por la misma letra de la columna K0.
 --
 --  Rta/
 --    K0   c16
@@ -37,3 +40,4 @@ SELECT k0, c16 FROM tbl1 WHERE SUBSTR(k0,1,1) = SUBSTR(c16,1,1);
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT k0, c16 FROM tbl1 WHERE SUBSTR(k0,1,1) = SUBSTR(c16,1,1);
